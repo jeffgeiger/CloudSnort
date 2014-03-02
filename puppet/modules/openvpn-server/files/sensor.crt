@@ -1,0 +1,76 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 1 (0x1)
+    Signature Algorithm: sha1WithRSAEncryption
+        Issuer: C=US, ST=NE, L=Lincoln, O=Paymentspring, OU=sensor, CN=sensor/name=sensor/emailAddress=jeff.geiger@firespring.com
+        Validity
+            Not Before: Feb 26 23:14:31 2014 GMT
+            Not After : Feb 24 23:14:31 2024 GMT
+        Subject: C=US, ST=NE, L=Lincoln, O=Paymentspring, OU=sensor, CN=sensor/name=sensor/emailAddress=jeff.geiger@firespring.com
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (1024 bit)
+                Modulus:
+                    00:db:31:59:21:b0:ed:54:0f:86:2e:bf:6a:50:45:
+                    63:3e:4d:cf:a2:80:b2:ab:5a:4d:d3:1f:3b:70:fb:
+                    74:de:8f:35:df:64:ed:31:03:98:b8:0a:33:b1:69:
+                    a4:15:5a:4f:66:f1:51:3a:10:11:07:be:d5:37:ef:
+                    22:23:bd:02:10:51:7d:85:4c:18:c8:14:25:c0:ff:
+                    2b:c9:74:6a:5d:47:68:ca:59:68:1c:87:4a:90:8d:
+                    9f:be:f7:90:40:a0:0d:e8:39:c6:04:36:db:56:f4:
+                    3e:04:87:84:27:7a:8e:a3:88:c1:00:08:46:1b:7e:
+                    d9:be:41:65:ab:e2:53:a1:a1
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Basic Constraints: 
+                CA:FALSE
+            Netscape Cert Type: 
+                SSL Server
+            Netscape Comment: 
+                Easy-RSA Generated Server Certificate
+            X509v3 Subject Key Identifier: 
+                C4:25:15:2F:B0:C8:B9:8B:B6:FC:6C:28:33:CE:1A:1E:12:1B:F1:33
+            X509v3 Authority Key Identifier: 
+                keyid:3F:55:7F:9C:3E:0E:34:50:18:A9:AD:55:E4:60:94:96:10:6C:9C:4B
+                DirName:/C=US/ST=NE/L=Lincoln/O=Paymentspring/OU=sensor/CN=sensor/name=sensor/emailAddress=jeff.geiger@firespring.com
+                serial:9A:56:24:90:5A:14:19:93
+
+            X509v3 Extended Key Usage: 
+                TLS Web Server Authentication
+            X509v3 Key Usage: 
+                Digital Signature, Key Encipherment
+    Signature Algorithm: sha1WithRSAEncryption
+         6c:29:df:47:4f:ef:e2:34:29:e2:f3:5d:8e:35:ea:e0:2c:e1:
+         4b:0b:32:05:b3:77:b9:91:a5:2f:5d:98:c3:3a:a6:9a:58:9c:
+         ed:66:91:0c:a1:10:7d:01:f5:b7:7d:3c:df:cc:fa:3b:d3:a0:
+         7e:58:40:6c:82:bd:cc:4c:c4:36:ed:c9:e7:c9:ec:a8:61:44:
+         52:e0:f7:e9:56:ae:e2:18:f0:bb:f5:55:5d:af:33:07:10:f3:
+         2b:fd:d5:49:cd:ea:36:89:ab:f1:6c:82:8a:c8:cc:7a:42:8e:
+         44:fa:49:0d:52:62:7c:f3:d9:f3:8c:f0:4a:de:b6:78:79:8c:
+         08:7e
+-----BEGIN CERTIFICATE-----
+MIIEMTCCA5qgAwIBAgIBATANBgkqhkiG9w0BAQUFADCBojELMAkGA1UEBhMCVVMx
+CzAJBgNVBAgTAk5FMRAwDgYDVQQHEwdMaW5jb2xuMRYwFAYDVQQKEw1QYXltZW50
+c3ByaW5nMQ8wDQYDVQQLEwZzZW5zb3IxDzANBgNVBAMTBnNlbnNvcjEPMA0GA1UE
+KRMGc2Vuc29yMSkwJwYJKoZIhvcNAQkBFhpqZWZmLmdlaWdlckBmaXJlc3ByaW5n
+LmNvbTAeFw0xNDAyMjYyMzE0MzFaFw0yNDAyMjQyMzE0MzFaMIGiMQswCQYDVQQG
+EwJVUzELMAkGA1UECBMCTkUxEDAOBgNVBAcTB0xpbmNvbG4xFjAUBgNVBAoTDVBh
+eW1lbnRzcHJpbmcxDzANBgNVBAsTBnNlbnNvcjEPMA0GA1UEAxMGc2Vuc29yMQ8w
+DQYDVQQpEwZzZW5zb3IxKTAnBgkqhkiG9w0BCQEWGmplZmYuZ2VpZ2VyQGZpcmVz
+cHJpbmcuY29tMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDbMVkhsO1UD4Yu
+v2pQRWM+Tc+igLKrWk3THztw+3TejzXfZO0xA5i4CjOxaaQVWk9m8VE6EBEHvtU3
+7yIjvQIQUX2FTBjIFCXA/yvJdGpdR2jKWWgch0qQjZ++95BAoA3oOcYENttW9D4E
+h4Qneo6jiMEACEYbftm+QWWr4lOhoQIDAQABo4IBczCCAW8wCQYDVR0TBAIwADAR
+BglghkgBhvhCAQEEBAMCBkAwNAYJYIZIAYb4QgENBCcWJUVhc3ktUlNBIEdlbmVy
+YXRlZCBTZXJ2ZXIgQ2VydGlmaWNhdGUwHQYDVR0OBBYEFMQlFS+wyLmLtvxsKDPO
+Gh4SG/EzMIHXBgNVHSMEgc8wgcyAFD9Vf5w+DjRQGKmtVeRglJYQbJxLoYGopIGl
+MIGiMQswCQYDVQQGEwJVUzELMAkGA1UECBMCTkUxEDAOBgNVBAcTB0xpbmNvbG4x
+FjAUBgNVBAoTDVBheW1lbnRzcHJpbmcxDzANBgNVBAsTBnNlbnNvcjEPMA0GA1UE
+AxMGc2Vuc29yMQ8wDQYDVQQpEwZzZW5zb3IxKTAnBgkqhkiG9w0BCQEWGmplZmYu
+Z2VpZ2VyQGZpcmVzcHJpbmcuY29tggkAmlYkkFoUGZMwEwYDVR0lBAwwCgYIKwYB
+BQUHAwEwCwYDVR0PBAQDAgWgMA0GCSqGSIb3DQEBBQUAA4GBAGwp30dP7+I0KeLz
+XY416uAs4UsLMgWzd7mRpS9dmMM6pppYnO1mkQyhEH0B9bd9PN/M+jvToH5YQGyC
+vcxMxDbtyefJ7KhhRFLg9+lWruIY8Lv1VV2vMwcQ8yv91UnN6jaJq/FsgorIzHpC
+jkT6SQ1SYnzz2fOM8Eretnh5jAh+
+-----END CERTIFICATE-----

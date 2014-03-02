@@ -1,0 +1,74 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 2 (0x2)
+    Signature Algorithm: sha1WithRSAEncryption
+        Issuer: C=US, ST=NE, L=Lincoln, O=Paymentspring, OU=sensor, CN=sensor/name=sensor/emailAddress=jeff.geiger@firespring.com
+        Validity
+            Not Before: Feb 26 23:19:22 2014 GMT
+            Not After : Feb 24 23:19:22 2024 GMT
+        Subject: C=US, ST=NE, L=Lincoln, O=Paymentspring, OU=sensor, CN=cloudclient/name=cloudclient/emailAddress=jeff.geiger@firespring.com
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (1024 bit)
+                Modulus:
+                    00:c9:19:fa:b6:b3:52:27:b9:82:77:60:23:4a:b8:
+                    5e:db:43:2f:28:ec:ec:4f:6b:bb:8b:9e:df:6c:7c:
+                    3b:b3:5f:52:bb:6a:46:35:b3:57:74:1d:f8:23:f2:
+                    82:ff:06:7a:8c:43:ef:ff:1c:77:40:12:5b:5b:03:
+                    e4:a4:00:97:f6:a4:09:24:3d:f6:a4:be:77:de:66:
+                    fc:a0:c5:16:52:d6:dc:ef:d6:6f:1a:c3:b8:55:0f:
+                    3f:23:67:3d:0b:f8:c8:83:e7:8b:19:39:ef:74:88:
+                    8d:31:79:bc:fe:ad:a9:c4:d2:01:70:21:68:42:74:
+                    97:f2:24:04:ec:b4:ed:ca:3b
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Basic Constraints: 
+                CA:FALSE
+            Netscape Comment: 
+                Easy-RSA Generated Certificate
+            X509v3 Subject Key Identifier: 
+                F8:EB:55:AA:86:C5:41:B2:9E:D2:6C:FE:24:0A:DC:7F:9B:94:1B:E6
+            X509v3 Authority Key Identifier: 
+                keyid:3F:55:7F:9C:3E:0E:34:50:18:A9:AD:55:E4:60:94:96:10:6C:9C:4B
+                DirName:/C=US/ST=NE/L=Lincoln/O=Paymentspring/OU=sensor/CN=sensor/name=sensor/emailAddress=jeff.geiger@firespring.com
+                serial:9A:56:24:90:5A:14:19:93
+
+            X509v3 Extended Key Usage: 
+                TLS Web Client Authentication
+            X509v3 Key Usage: 
+                Digital Signature
+    Signature Algorithm: sha1WithRSAEncryption
+         a4:f6:47:3a:08:ad:8d:fc:80:80:d7:d3:83:91:37:90:7e:6d:
+         76:c9:cc:ba:30:f7:14:a2:d7:5b:4a:25:ee:7f:cd:5f:25:53:
+         32:c3:3f:72:c4:b1:c6:43:b3:7d:f8:eb:ea:9c:ce:9d:05:2c:
+         ae:1c:55:c4:0e:27:42:a8:10:6b:ad:77:eb:ac:b6:e3:9f:09:
+         c2:33:a7:be:81:0e:f7:c2:10:cd:63:59:39:6e:7d:63:b4:98:
+         d1:c3:11:ef:6e:5d:29:70:18:25:e7:bb:8a:fc:29:da:1e:d0:
+         be:7a:47:35:9e:07:76:35:38:60:1a:73:e6:de:92:0f:df:0b:
+         cb:c1
+-----BEGIN CERTIFICATE-----
+MIIEITCCA4qgAwIBAgIBAjANBgkqhkiG9w0BAQUFADCBojELMAkGA1UEBhMCVVMx
+CzAJBgNVBAgTAk5FMRAwDgYDVQQHEwdMaW5jb2xuMRYwFAYDVQQKEw1QYXltZW50
+c3ByaW5nMQ8wDQYDVQQLEwZzZW5zb3IxDzANBgNVBAMTBnNlbnNvcjEPMA0GA1UE
+KRMGc2Vuc29yMSkwJwYJKoZIhvcNAQkBFhpqZWZmLmdlaWdlckBmaXJlc3ByaW5n
+LmNvbTAeFw0xNDAyMjYyMzE5MjJaFw0yNDAyMjQyMzE5MjJaMIGsMQswCQYDVQQG
+EwJVUzELMAkGA1UECBMCTkUxEDAOBgNVBAcTB0xpbmNvbG4xFjAUBgNVBAoTDVBh
+eW1lbnRzcHJpbmcxDzANBgNVBAsTBnNlbnNvcjEUMBIGA1UEAxMLY2xvdWRjbGll
+bnQxFDASBgNVBCkTC2Nsb3VkY2xpZW50MSkwJwYJKoZIhvcNAQkBFhpqZWZmLmdl
+aWdlckBmaXJlc3ByaW5nLmNvbTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA
+yRn6trNSJ7mCd2AjSrhe20MvKOzsT2u7i57fbHw7s19Su2pGNbNXdB34I/KC/wZ6
+jEPv/xx3QBJbWwPkpACX9qQJJD32pL533mb8oMUWUtbc79ZvGsO4VQ8/I2c9C/jI
+g+eLGTnvdIiNMXm8/q2pxNIBcCFoQnSX8iQE7LTtyjsCAwEAAaOCAVkwggFVMAkG
+A1UdEwQCMAAwLQYJYIZIAYb4QgENBCAWHkVhc3ktUlNBIEdlbmVyYXRlZCBDZXJ0
+aWZpY2F0ZTAdBgNVHQ4EFgQU+OtVqobFQbKe0mz+JArcf5uUG+YwgdcGA1UdIwSB
+zzCBzIAUP1V/nD4ONFAYqa1V5GCUlhBsnEuhgaikgaUwgaIxCzAJBgNVBAYTAlVT
+MQswCQYDVQQIEwJORTEQMA4GA1UEBxMHTGluY29sbjEWMBQGA1UEChMNUGF5bWVu
+dHNwcmluZzEPMA0GA1UECxMGc2Vuc29yMQ8wDQYDVQQDEwZzZW5zb3IxDzANBgNV
+BCkTBnNlbnNvcjEpMCcGCSqGSIb3DQEJARYaamVmZi5nZWlnZXJAZmlyZXNwcmlu
+Zy5jb22CCQCaViSQWhQZkzATBgNVHSUEDDAKBggrBgEFBQcDAjALBgNVHQ8EBAMC
+B4AwDQYJKoZIhvcNAQEFBQADgYEApPZHOgitjfyAgNfTg5E3kH5tdsnMujD3FKLX
+W0ol7n/NXyVTMsM/csSxxkOzffjr6pzOnQUsrhxVxA4nQqgQa61366y2458JwjOn
+voEO98IQzWNZOW59Y7SY0cMR725dKXAYJee7ivwp2h7QvnpHNZ4HdjU4YBpz5t6S
+D98Ly8E=
+-----END CERTIFICATE-----
