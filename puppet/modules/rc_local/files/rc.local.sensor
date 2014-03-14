@@ -7,4 +7,6 @@
 /etc/init.d/snort stop
 /etc/init.d/snort start
 
+/etc/init.d/snorby start
+
 exit 0

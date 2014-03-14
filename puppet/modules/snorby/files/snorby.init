@@ -1,0 +1,81 @@
+#! /bin/sh
+#
+# Snorby        Control the Unicorn+Snorby server
+#
+# chkconfig: - 90 10
+# config: /var/www/snorby/unicorn.conf.rb
+# pidfile: /var/run/snorby/unicorn.pid
+
+# Source function library.
+#. /etc/rc.d/init.d/functions
+. /lib/lsb/init-functions
+
+RETVAL=0
+PROCNAME=unicorn_rails
+#USER=snorby
+PGREP="$PROCNAME"
+APP_PATH="/var/www/snorby/"
+CONFIG="/var/www/snorby/unicorn.conf.rb"
+PIDFILE="/var/run/snorby/unicorn.pid"
+
+mkdir -p /var/run/snorby 2> /dev/null
+#chown snorby /var/run/snorby
+
+mkdir -p /var/log/snorby 2> /dev/null
+#chown snorby /var/log/snorby
+
+# See how we were called.
+case "$1" in
+  start)
+        echo -n "Starting Unicorn+Snorby server: "
+        #su -l -s /bin/bash -c "unicorn_rails --daemonize --env production --daemonize --config-file $CONFIG" $USER
+        cd $APP_PATH
+        /usr/local/bin/bundle exec unicorn_rails --env production --daemonize --config-file $CONFIG
+        RETVAL=$?
+        if [ $RETVAL -eq 0 ]
+        then
+                log_success_msg
+        else
+                log_failure_msg
+        fi
+        echo
+        ;;
+  stop)
+        echo -n "Stopping Unicorn+Snorby server:: "
+        #su -l -s /bin/bash -c "kill $(cat $PIDFILE) > /dev/null 2> /dev/null" $USER
+        kill $(cat $PIDFILE) > /dev/null 2> /dev/null
+        RETVAL=$?
+        if [ $RETVAL -eq 0 ]
+        then
+                log_success_msg
+        else
+                log_failure_msg
+        fi
+        echo
+        ;;
+  status)
+        pids=$(pgrep $PGREP)
+        if [ -z "$pids" ] ; then
+                echo "Unicorn+Snorby is NOT running..."
+                RETVAL=1
+        else
+                echo -n "Unicorn+Snorby is running - Pids: "
+                for pid in $pids ; do
+                        echo -n "$pid "
+                done
+                echo ""
+                RETVAL=0
+        fi
+        ;;
+  restart|reload)
+        $0 stop
+        $0 start
+        RETVAL=$?
+        ;;
+  *)
+        echo "Usage: snorby {start|stop|status|restart}"
+        exit 1
+esac
+
+exit $RETVAL
+

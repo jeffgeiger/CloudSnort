@@ -6,8 +6,25 @@ VAGRANTFILE_API_VERSION = "2"
 
 Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
+config.vm.define :database do |database|
+  database.vm.box = "precise64"
+  database.vm.provider "virtualbox" do |v|
+    v.memory = 2048
+  end
+  database.vm.hostname = "database"
+  database.vm.network :private_network, ip: "192.168.0.10"
+  database.vm.provision :puppet do |puppet|
+    puppet.manifests_path = "puppet/manifests"
+    puppet.manifest_file  = "base.pp"
+    puppet.module_path = "puppet/modules"
+  end
+end
+
 config.vm.define :sensor do |sensor|
   sensor.vm.box = "precise64"
+  sensor.vm.provider "virtualbox" do |v|
+    v.memory = 4096
+  end
   sensor.vm.hostname = "sensor"
   sensor.vm.network :private_network, ip: "192.168.0.3"
   sensor.vm.provision :puppet do |puppet|
